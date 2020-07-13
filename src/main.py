@@ -1,8 +1,8 @@
 import sys
-import winner_finder
-from models.car_list import CarList
-from models.part_list import PartList
-from models.team_list import TeamList
+from src import winner_finder
+from src.models.car_list import CarList
+from src.models.part_list import PartList
+from src.models.team_list import TeamList
 
 
 def initialize(teams_file_name, cars_file_name, parts_file_name):

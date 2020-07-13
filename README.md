@@ -70,8 +70,13 @@ pip install -r requirements.txt
 ##### Executing Solution
 
 ```bash
-cd src
-python main.py ../data/Teams.csv ../data/Cars.csv ../data/Parts.csv
+python -m src.main data/Teams.csv data/Cars.csv data/Parts.csv
+```
+
+##### Running TestCases
+
+```bash
+python -m unittest discover
 ```
 
 Copyright © 2020, Nikunj Agarwal. All rights reserved.

@@ -1,8 +1,8 @@
 import sys
-from models.car_list import CarList
-from models.part_list import PartList
-from models.teams_fastest_car import TeamsFastestCar
-from models.team_list import TeamList
+from src.models.car_list import CarList
+from src.models.part_list import PartList
+from src.models.teams_fastest_car import TeamsFastestCar
+from src.models.team_list import TeamList
 
 
 def get_winner():
